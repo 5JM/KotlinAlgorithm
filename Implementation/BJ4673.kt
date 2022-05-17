@@ -1,7 +1,6 @@
 package Implementation
-
 // 셀프 넘버
-fun d(n:Int):Int{
+fun d(n:Int) : Int{
     var sum = n
     for(i in n.toString()) sum+=i.digitToInt()
     return sum
