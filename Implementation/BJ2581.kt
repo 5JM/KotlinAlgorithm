@@ -23,7 +23,7 @@ fun sosu(a:Int,b:Int){
     else println("$sum\n$min")
 }
 
-fun isPrime(i: Int): Boolean {
+private fun isPrime(i: Int): Boolean {
     if (i == 1) return false
     for (j in 2 until i) if (i % j == 0) return false
     return true
